@@ -78,6 +78,7 @@ python make_test_image.py
 | `processor.py` | 算法层：`erase_color_blocks()`、`_flood_fill()`、读写转换（可脱离 GUI 使用） |
 | `batch_dialog.py` | 批量处理对话框 + 后台线程 `BatchWorker` |
 | `selftest.py` | 无头自检：窗口构建、抠图、撤销、批量导出等全链路验证 |
+| `smoke_test_exe.py` | 打包后 exe 冒烟测试：启动、窗口标题、界面渲染截图 |
 | `make_test_image.py` | 生成测试图 |
 | `make_icon.py` | 生成应用图标 `assets/icon.ico` |
 | `build_exe.bat` / `ColorBlockClicker.spec` | PyInstaller 打包配置与一键脚本 |
