@@ -1,44 +1,37 @@
 # UTF-8
-#
 # Windows EXE 版本信息（PyInstaller version file）
-vs_version_info = (
-    1,
-    "VSVersionInfo",
-    (
-        0x00000001,
-        0x00000100,
-        0x00000000,
-        0x00000000,
-        0x00000001,  # FileVersion 1.0
-        0x00000001,  # ProductVersion 1.0
-        (
-            0x00000000,
-            0x00000003,  # VFT_APP
-            0x00000000,
-            0x00000000,
-            0x00000000,
-            0x00000000,
-        ),
-        (
-            (
-                0x040904B0,  # 中文(0x0409 简中/0x0804)... 此处用 0409 en-US + Unicode
-                (
-                    "StringValue",
-                    (
-                        "040904B0",
-                        (
-                            "CompanyName", "whitelib",
-                            "FileDescription", "透明通道色块点击器 - Color Block Transparency Tool",
-                            "FileVersion", "1.0.0.0",
-                            "InternalName", "ColorBlockClicker",
-                            "LegalCopyright", "MIT License (c) 2026 yxpil",
-                            "OriginalFilename", "ColorBlockClicker.exe",
-                            "ProductName", "Color Block Transparency Tool",
-                            "ProductVersion", "1.0.0.0",
-                        ),
-                    ),
-                ),
-            ),
-        ),
+VSVersionInfo(
+    ffi=FixedFileInfo(
+        filevers=(1, 0, 0, 0),
+        prodvers=(1, 0, 0, 0),
+        mask=0x3F,
+        flags=0x0,
+        OS=0x40004,
+        fileType=0x1,
+        subtype=0x0,
+        date=(0, 0),
     ),
+    kids=[
+        StringFileInfo(
+            [
+                StringTable(
+                    "040904B0",
+                    [
+                        StringStruct("CompanyName", "whitelib"),
+                        StringStruct(
+                            "FileDescription",
+                            "透明通道色块点击器 - Color Block Transparency Tool",
+                        ),
+                        StringStruct("FileVersion", "1.0.0.0"),
+                        StringStruct("InternalName", "ColorBlockClicker"),
+                        StringStruct("LegalCopyright", "MIT License (c) 2026 yxpil"),
+                        StringStruct("OriginalFilename", "ColorBlockClicker.exe"),
+                        StringStruct("ProductName", "Color Block Transparency Tool"),
+                        StringStruct("ProductVersion", "1.0.0.0"),
+                    ],
+                )
+            ]
+        ),
+        VarFileInfo([VarStruct("Translation", [1033, 1200])]),
+    ],
 )
