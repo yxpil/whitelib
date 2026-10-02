@@ -1,0 +1,44 @@
+# UTF-8
+#
+# Windows EXE 版本信息（PyInstaller version file）
+vs_version_info = (
+    1,
+    "VSVersionInfo",
+    (
+        0x00000001,
+        0x00000100,
+        0x00000000,
+        0x00000000,
+        0x00000001,  # FileVersion 1.0
+        0x00000001,  # ProductVersion 1.0
+        (
+            0x00000000,
+            0x00000003,  # VFT_APP
+            0x00000000,
+            0x00000000,
+            0x00000000,
+            0x00000000,
+        ),
+        (
+            (
+                0x040904B0,  # 中文(0x0409 简中/0x0804)... 此处用 0409 en-US + Unicode
+                (
+                    "StringValue",
+                    (
+                        "040904B0",
+                        (
+                            "CompanyName", "whitelib",
+                            "FileDescription", "透明通道色块点击器 - Color Block Transparency Tool",
+                            "FileVersion", "1.0.0.0",
+                            "InternalName", "ColorBlockClicker",
+                            "LegalCopyright", "MIT License (c) 2026 yxpil",
+                            "OriginalFilename", "ColorBlockClicker.exe",
+                            "ProductName", "Color Block Transparency Tool",
+                            "ProductVersion", "1.0.0.0",
+                        ),
+                    ),
+                ),
+            ),
+        ),
+    ),
+)

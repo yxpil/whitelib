@@ -1,0 +1,31 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+*.spec.bak
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# ---- PyInstaller 产物 ----
+# dist/ 已在上方忽略；Release 通过 GitHub Actions 或本地 build 生成
+
+# ---- 运行产物 / 测试临时文件 ----
+_batch_out/
+_screenshot.png
+*.log
+
+# ---- 编辑器 / IDE ----
+.vscode/
+.idea/
+*.swp
+
+# ---- 系统 ----
+Thumbs.db
+desktop.ini
+.DS_Store
