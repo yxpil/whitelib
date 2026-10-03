@@ -1,4 +1,10 @@
-# 测试说明（ColorBlockClicker / whitelib）
+# whitelib 测试说明
+- 测试完成：是（2026-10-04）
+- 测试日期：2026-10-04
+- 测试内容：单元测试覆盖算法层（行游程洪泛填充连通性、erase_color_blocks 容差与越界裁剪、pick_colors、MagicSpec 归一化、PNG/JPG/QImage 往返、无扩展名拒绝）；集成测试覆盖 BatchWorker 后台线程批量处理全链路与失败隔离；注入测试验证输入路径含 `../` 时输出按 basename 落在 out_dir 内不外逃；钩子测试验证 ImageCanvas 的 toolApplied/modifiedChanged/colorPicked 信号按序触发、坏文件不影响整批。涉及模块：processor/算法层、BatchWorker、ImageCanvas。
+- 运行命令：python -m pytest tests/ -v（QT_QPA_PLATFORM=offscreen）
+- 测试框架：pytest（PyQt5 offscreen）
+- 模型：豆包（Doubao）生成
 
 ## 运行方式
 
