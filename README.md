@@ -103,3 +103,15 @@ pip install rawpy
 ```
 
 安装后会自动识别 `.cr2 .nef .arw .dng` 等相机 RAW 文件；未安装时这类文件会被跳过。
+
+---
+
+<div align="center">
+
+<a href="https://github.com/yxpil/whitelib">
+  <img width="100%" src="https://alittlecatgirlpanel.yxp.hk/card?repo=yxpil/whitelib" alt="gh-card · yxpil/whitelib" />
+</a>
+
+<sub>Powered by <a href="https://alittlecatgirlpanel.yxp.hk"><b>gh-card</b></a> · 粉色手写体 README 仓库名片</sub>
+
+</div>
